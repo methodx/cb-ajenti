@@ -6,7 +6,8 @@
 
 include_recipe "apt"
 
-if node[:platform_version] < "7.0"
+case case node[:platform_version]
+when < "7.0"
 	apt_repository "backports" do
 		uri "http://mirror.yandex.ru/debian-backports"
 		distribution "oldstable-backports"
