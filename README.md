@@ -29,7 +29,7 @@ Just include `cookbook-ajenti` in your node's `run_list`:
 Repository
 ----------
 
-http://github.com/methodx/cookbook-ajenti
+http://github.com/methodx/cb-ajenti
 
 License
 -------
